@@ -1,24 +1,10 @@
 :root {
   font-family: "Jost", Sans-Serif;
-  font-size: 12.5pt;
+  font-size: 13pt;
   --border-color: rgba(201, 165, 129, 0.44)
 }
 body {
   background-color: #0e1730;
-}
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
-}
-.row2 {
-  padding: 5px 0;
-  border-top: var(--border-color) solid 1px;
-  border-bottom: var(--border-color) solid 1px;
-}
-#banner {
-  height: 60px;
 }
 a, span {
   color: #cecece;
@@ -31,22 +17,49 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
 }
-.border-left, .border-right {
-  height: 50px;
+.row {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  padding: 15px 0;
 }
-.border-left {
-  border-left: var(--border-color) solid 1px;
-  padding-left: 120px;
+.row2 {
+  padding: 20px 0;
+  border-top: var(--border-color) solid 1px;
+  border-bottom: var(--border-color) solid 1px;
 }
-.border-right {
-  border-right: var(--border-color) solid 1px;
-  padding-right: 120px;
+#banner {
+  height: 60px;
 }
 #bar-icon {
   padding: 0;
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-left: 1rem;
+}
+.border-left, .border-right {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  color: white;
+}
+.border-left {
+  border-left: var(--border-color) solid 1px;
+  padding-left: 220px;
+}
+.border-right {
+  border-right: var(--border-color) solid 1px;
+  padding-right: 220px;
+}
+.gallery {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.gallery img {
+  width: 21vw;
+  height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
 }

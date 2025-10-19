@@ -38,6 +38,7 @@ nav {
 }
 .border-left, .border-right {
   height: 105px;
+  width: 230px;
   display: flex;
   align-items: center;
   font-size: 26px;
@@ -45,11 +46,12 @@ nav {
 }
 .border-left {
   border-left: var(--border-color) solid 1px;
-  padding-left: 220px;
+  padding-left: 80px;
+  justify-content: end;
 }
 .border-right {
   border-right: var(--border-color) solid 1px;
-  padding-right: 220px;
+  padding-right: 80px;
 }
 .gallery {
   padding: 40px 20px;

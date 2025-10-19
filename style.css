@@ -46,12 +46,12 @@ nav {
 }
 .border-left {
   border-left: var(--border-color) solid 1px;
-  padding-left: 80px;
+  padding-left: 40px;
   justify-content: end;
 }
 .border-right {
   border-right: var(--border-color) solid 1px;
-  padding-right: 80px;
+  padding-right: 40px;
 }
 .gallery {
   padding: 40px 20px;
@@ -60,7 +60,6 @@ nav {
 }
 .gallery img {
   width: 21vw;
-  height: 400px;
   object-fit: cover;
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;

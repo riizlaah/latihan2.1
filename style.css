@@ -37,7 +37,7 @@ nav {
   margin-left: 1rem;
 }
 .border-left, .border-right {
-  height: 105px;
+  height: 80px;
   width: 230px;
   display: flex;
   align-items: center;
@@ -54,12 +54,16 @@ nav {
   padding-right: 40px;
 }
 .gallery {
+  max-width: 1400px;
+  margin: 0 auto;
   padding: 40px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 .gallery img {
-  width: 21vw;
+  width: 22.5%;
+  height: 400px;
   object-fit: cover;
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
